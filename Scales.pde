@@ -1,3 +1,4 @@
+
 void setup() {
   size(470,500);
 }
@@ -8,7 +9,8 @@ void draw()
  
    for(int y=0; y<=1500; y+=40)
   {
-    for(int x=10; x<=500; x+=24)
+    for(int x=-50; x<=500; x+=24)
+
     {
       if(shift==true){
          stroke(0,0,0);
@@ -52,5 +54,6 @@ void scale(int x, int y) {
     }
       else{
    fill(y+5,112,219);
-    }    
+    }
+      
 }
